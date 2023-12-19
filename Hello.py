@@ -34,7 +34,7 @@ def run():
 
     st.markdown(
         """
-        VoiceBot is a powerful SDK built by Lyzr AI.
+        VoiceBot is a powerful audio processing SDK built by Lyzr AI.
         **👈 Select a demo from the sidebar** to see some examples
         of what VoiceBot can do!
         ### Want to learn more?
