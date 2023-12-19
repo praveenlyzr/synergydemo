@@ -20,29 +20,25 @@ LOGGER = get_logger(__name__)
 
 def run():
     st.set_page_config(
-        page_title="Hello",
+        page_title="VoiceBot",
         page_icon="👋",
     )
 
-    st.write("# Welcome to Streamlit! 👋")
+    st.write("# Welcome to VoiceBot! 👋")
 
     st.sidebar.success("Select a demo above.")
 
     st.markdown(
         """
-        Streamlit is an open-source app framework built specifically for
-        Machine Learning and Data Science projects.
+        VoiceBot is a powerful SDK.
         **👈 Select a demo from the sidebar** to see some examples
-        of what Streamlit can do!
+        of what VoiceBot can do!
         ### Want to learn more?
-        - Check out [streamlit.io](https://streamlit.io)
-        - Jump into our [documentation](https://docs.streamlit.io)
+        - Check out [lyzr.ai](https://www.lyzr.ai/)
+        - Jump into our [documentation](https://docs.lyzr.ai/homepage)
         - Ask a question in our [community
-          forums](https://discuss.streamlit.io)
-        ### See more complex demos
-        - Use a neural net to [analyze the Udacity Self-driving Car Image
-          Dataset](https://github.com/streamlit/demo-self-driving)
-        - Explore a [New York City rideshare dataset](https://github.com/streamlit/demo-uber-nyc-pickups)
+          forums](https://discord.com/invite/P6HCMQ9TRX)
+        
     """
     )
 

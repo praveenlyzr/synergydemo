@@ -1,5 +1,10 @@
-altair
-numpy
-pandas
-pydeck
+openai
 streamlit
+transformers 
+accelerate 
+datasets[audio]
+openai
+pydub
+streamlit
+audio-recorder-streamlit
+ffmpeg
