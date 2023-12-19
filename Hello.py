@@ -14,10 +14,7 @@
 
 import streamlit as st
 from streamlit.logger import get_logger
-from PIL import Image
 
-image = Image.open("lyzr-logo.png")
-st.image(image, caption="", width=150)
 LOGGER = get_logger(__name__)
 
 
@@ -26,6 +23,10 @@ def run():
         page_title="VoiceBot",
         page_icon="👋",
     )
+    from PIL import Image
+
+    image = Image.open("lyzr-logo.png")
+    st.image(image, caption="", width=150)
 
     st.write("# Welcome to VoiceBot! 👋")
 
